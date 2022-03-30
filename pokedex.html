@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pokedex.css">
+</head>
+<body>
+    <div>
+        <h1>Pokedex </h1>
+    </div>
+    
+    <div class="pokedex interfazPrincipal">
+        <div class="lucesCirculares">
+            <div class="luzAzul"></div>
+            <div class="luzRoja"></div>
+            <div class="luzAmarilla"></div>
+            <div class="luzVerde"></div>
+        </div>
+        
+        <div class="pantallaPokedex">
+            <img src="./imagenes/pokebola.png" alt="pokemon" class="imgPokemon" id="pokeImg">
+            <input type="text" placeholder="Nombre del pokemón" id="pokemon" name="pokemon" class="inputPokemon">
+        </div>
+        
+        <div class="botonesPokedex">
+            <div>
+                <div class="botonSimulado1"></div>
+            <div class="botonSimulado2"></div>
+            </div>
+            <button class="botonCambiarPokemon" onclick="fetchPokemon()">Cambiar pokemon</button>
+        </div>
+        
+        <div>
+
+        </div>
+    </div>
+    <footer><script src="./pokedex.js"></script></footer>
+</body>
+</html>
